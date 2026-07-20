@@ -24,7 +24,7 @@ include("free_fermions_simulation.jl")
 #   :Rxx_Rz    — 2-param NN,  angles bounded to [-π, π]  (e^{-iJ·Rxx} · e^{-ih·Rz})
 #   :TFI_only  — 2-param NN,  unbounded                  (e^{-i(J·XX + h·Z)})
 #   :TFI_Rz    — 3-param NN,  third angle bounded [-π,π] (e^{-i(tJ·XX+h·Z)} · e^{-iθ·Rz})
-#   :brickwall — 4-param NN,  unbounded staggered layers  (even + odd bonds)
+#   :brickwall — 4-param NN,  unbounded staggered layers  (even + odd bonds) ### Depreciated, test purposes only
 
 # const ANSATZ = :brickwall
 const ANSATZ = Symbol(ARGS[1])
