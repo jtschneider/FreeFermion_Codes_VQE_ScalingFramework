@@ -1,5 +1,4 @@
 # Standalone Ising publication analysis extracted from notebooks/pub-analysis.jl.
-# XY/free-hopping and hockey-stick analysis are intentionally omitted.
 
 ENV["MKL_DEBUG_CPU_TYPE"] = "5"
 ENV["BLIS_NUM_THREADS"] = "4"
