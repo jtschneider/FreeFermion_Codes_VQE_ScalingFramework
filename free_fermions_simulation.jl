@@ -1,13 +1,5 @@
 # Focused free-fermion simulation library.
-#
-# Dependency closure extracted from `free_fermions_AD.jl` for:
-#   - gen_FreeFermions_Euclidian_Optim.jl
-#   - gen_FreeFermions_Euclidian_NLOpt.jl
-#   - gen_NN_TFI_unified_QNG.jl
-#   - gen_NN_TFI_unified.jl
-#
-# Keep this file as a plain include library: the drivers expect its public
-# functions in `Main`, matching the original `free_fermions_AD.jl` behavior.
+
 
 using LinearAlgebra
 using Random
