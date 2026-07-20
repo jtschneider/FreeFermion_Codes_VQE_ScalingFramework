@@ -8,7 +8,7 @@ ENV["BLIS_NUM_THREADS"] = "4"
 const BASE_DIR = normpath(get(
     ENV,
     "FREE_FERMIONS_BASE_DIR",
-    joinpath(@__DIR__, ".."),
+    joinpath(@__DIR__, "."),
 ))
 
 # import Pkg; Pkg.activate(BASE_DIR)
